@@ -6,12 +6,19 @@ body{
 	padding: 0;
 }
 
-p{
+#container{
+	position: relative;
+}
+div.indiv{
 	float: left;
 	min-height: 320px;
 }
-div{
+span{
 	position: relative;
+	border: 3px solid black;
+	float: right;
+	padding: 10px;
+	font-weight: bolder;
 }
 #sec1{
 	border: 2px solid black;
@@ -28,7 +35,7 @@ div{
 }
 
 @media (min-width: 992px){
-  p{
+  div.indiv{
   	width: 33%;
   }
 }
@@ -41,7 +48,7 @@ div{
   }
 }
 @media (max-width: 768px){
-	p{
+	div.indiv{
 		width: 100%;
 	}
 }
